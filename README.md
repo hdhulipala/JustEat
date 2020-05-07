@@ -22,4 +22,7 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
 ### Technologies
 To automate the project, I have used Selenium WebDriver with Cucumber framework as we have already got the scenario for Ghekin file.
 Based on the Ghekin file scenario I have generated the StepDefinition file where I have used Java Language to automate the Just Eat Site for each steps of the Scenario. Below is the structure of the automation project:
-* 
+
+1. Code Structure: All the java files are available in src\test\java folder
+   - \PageObjects\TestBase.java : 
+
