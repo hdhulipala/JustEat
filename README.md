@@ -1,5 +1,5 @@
 # JustEat
-Just Eat is an online food order and delivery service which acts as an intermediary between independent take-out food outlets and customers. JUST EAT website can be use to find open takeaway restaurants by using postcode area
+Just Eat is an online food order and delivery service which acts as an intermediary between independent take-out food outlets and customers. JUST EAT website can be used to find open takeaway restaurants by using postcode area
 JUST EAT has a website available at http://www.just-eat.co.uk/
 
 ## Table of contents
