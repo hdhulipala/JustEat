@@ -24,5 +24,6 @@ To automate the project, I have used Selenium WebDriver with Cucumber framework 
 Based on the Ghekin file scenario I have generated the StepDefinition file where I have used Java Language to automate the Just Eat Site for each steps of the Scenario. Below is the structure of the automation project:
 
 1. Code Structure: All the java files are available in src\test\java folder
-   - \PageObjects\TestBase.java : 
+   - \PageObjects\TestBase.java :  All the common codes are written here which are been called in the StepDefinitions class file. The methods like Clicking on button, Enter the text in textbox etc.
+   
 
