@@ -7,7 +7,8 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
 * [Technologies](#technologies)
  
 ### Introduction
- In this project we are automating the JUST EAT website to achieve the below scenario:
+ In this project we are automating the **JUST EAT** website to achieve the below scenario:
+  ```
   Feature: Use the website to find restaurants
            So that I can order food
            As a hungry customer
@@ -16,7 +17,7 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
            Given I want food in "AR51 1AA"
            When I search for restaurants
            Then I should see some restaurants in "AR51 1AA"
-
+  ```
 
 ### Technologies
 To automate the project, I have used Selenium WebDriver with Cucumber framework as we have already got the scenario for Ghekin file.
