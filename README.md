@@ -39,3 +39,4 @@ Based on the Ghekin file scenario I have generated the StepDefinition file where
 4. Test output: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html` which we can use to see the test result by opening it in browser.
 
 ### Setup
+Test
