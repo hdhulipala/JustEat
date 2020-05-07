@@ -4,7 +4,7 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
 
 ## Table of contents
 * [Introduction](#introduction)
-* [Technologies](#technologies)
+* [Technologies and Folder structure](#technologies and folder structure)
  
 ### Introduction
  In this project we are automating the **JUST EAT** website to achieve the below scenario:
@@ -19,8 +19,8 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
            Then I should see some restaurants in "AR51 1AA"
   ```
 
-### Technologies
-To automate the project, I have used Selenium WebDriver with Cucumber framework as we have already got the scenario for Ghekin file.
+### Technologies and Folder structure
+To automate the project, I have used Selenium WebDriver with Cucumber framework as I have already got the scenario for Ghekin file.
 Based on the Ghekin file scenario I have generated the StepDefinition file where I have used Java Language to automate the Just Eat Site for each steps of the Scenario. Below is the structure of the automation project:
 
 1. Code Structure: All the java files are available in `src\test\java` folder
@@ -30,5 +30,12 @@ Based on the Ghekin file scenario I have generated the StepDefinition file where
 
 2. Resources structure: All the resources used in the project are present in `src\test\resources` folder including Gheking feature file
    - `\executables` : This folder is used to store all the drivers which can be used in the project. I have used `chromedriver.exe` for the execution of the project. In case you need to execute the script in IE driver then the .exe file for the same should be present in this folder and the IE driver should be initiated instead of Chrome driver in `searchrest.java` file
-   - `\features` : This folder consists of all the feature files with the extension `.feature`. Currently it consist of \searchrest.feature which defines the scenario mentioned in **Introduction**
+   - `\features` : This folder consists of all the feature files with the extension `.feature`. Currently it consist of \searchrest.feature which defines the scenario mentioned in `Introduction`
+   - `\properties` : This folder consist of the property files with extension as `.properties`. Here I have mentioned all the locators which are used in the project, the browser which I used, the website URL and the implicit wait. It is the central repository so if we have to change the details we can change it from here directly without going inside each java files.
+  
+3. Maven POM file:
+   - `\pom.xml` : This XML file contains the project configuration details used by Maven. It provides all the configuration required for a project like cucumber jar, testng jar etc
+   
+4. Test output: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html` which we can use to see the test result by opening it in browser.
 
+### Setup
