@@ -3,9 +3,10 @@ Just Eat is an online food order and delivery service which acts as an intermedi
 JUST EAT has a website available at http://www.just-eat.co.uk/
 
 ## Table of contents
+* [Introduction](#introduction)
 * [Technologies](#technologies)
  
-### Introduction - the project's aim
+### Introduction
  In this project we are automating the JUST EAT website to achieve the below scenario:
   Feature: Use the website to find restaurants
            So that I can order food
@@ -18,3 +19,6 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
 
 
 ### Technologies
+To automate the project, I have used Selenium WebDriver with Cucumber framework as we have already got the scenario for Ghekin file.
+Based on the Ghekin file scenario I have generated the StepDefinition file where I have used Java Language to automate the Just Eat Site for each steps of the Scenario. Below is the structure of the automation project:
+* 
