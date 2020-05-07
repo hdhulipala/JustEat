@@ -37,7 +37,7 @@ Based on the Ghekin file scenario I have generated the StepDefinition file where
 3. **Maven POM file**:
    - `\pom.xml` : This XML file contains the project configuration details used by Maven. It provides all the configuration required for a project like cucumber jar, testng jar etc
    
-4. **Test output**: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html` which we can use to see the test result by opening it in browser.
+4. **Test output**: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html`) which we can use to see the test result report by opening it in browser.
 
 ### Setup
 1. **Install Java on your computer**
@@ -51,7 +51,8 @@ Double-click on "eclipse-inst-win64" exe downloaded file to Install the Eclipse.
 Click on File>Import. Select Git> Projects from Git. Then click on Next. Click on Clone URI and Next. Enter the URI as SSH link provided. Click on Next. Select `master` and click on Next. Select the directory where you want to store the code file, click on Clone submodules and Click on Next. Select Import existing eclipse project, select the working tree and click on Next. Click on Finish.
 
 4. **Executing**
-Open the folder \JustEat\src\test\java\Runners\MainRunner.java
-[Image](C:\Users\Janhavi Patil\Desktop\Capture.png)
+Open the folder `\JustEat\src\test\java\Runners\MainRunner.java`. Right click on `MainRunner.java` file.  Select Run As> TestNG Test. Wait for the execution to complete.
+Once you get the Passed status in Eclipse IDE cosole, open the `\JustEat\test-output` folder. Copy the location of 2 html files (`emailable-report.html` and `index.html`) by right click on the file and click on properties. 
+Open the copied location path in the browser. You will view the result report.
 
 
