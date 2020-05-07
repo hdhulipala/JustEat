@@ -48,6 +48,6 @@ Download latest version of "Eclipse IDE for Java Developers" [here](http://www.e
 Double-click on "eclipse-inst-win64" exe downloaded file to Install the Eclipse. A new window will open. Click Eclipse IDE for Java Developers. Then select the path where you want to install and install. After successful completion of the installation procedure, click on Launch to open the Eclipse IDE. Select your workspace where you want to store the code before launching the Eclipse IDE
 
 3. **Import Github project**
-Click on File>Import. Select Git> Projects from Git. Then click on Next. Click on Clone URI and Next. Enter the URI link from [here](git@github.com:hdhulipala/JustEat.git). Click on Next. 
+Click on File>Import. Select Git> Projects from Git. Then click on Next. Click on Clone URI and Next. Enter the URI [path.git](git@github.com:hdhulipala/JustEat.git). Click on Next. Select `master` and click on Next. Select the directory where you want to store the code file, click on Clone submodules and Click on Next. 
 
 
