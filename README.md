@@ -40,4 +40,5 @@ Based on the Ghekin file scenario I have generated the StepDefinition file where
 4. **Test output**: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html` which we can use to see the test result by opening it in browser.
 
 ### Setup
-1
+1. Install Java on your computer
+Download and install the Java Software Development Kit (JDK) [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
