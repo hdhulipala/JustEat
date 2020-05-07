@@ -40,5 +40,12 @@ Based on the Ghekin file scenario I have generated the StepDefinition file where
 4. **Test output**: The result of the test are present in the `\test-output` folder. It consist of 2 html files (`emailable-report.html` and `index.html` which we can use to see the test result by opening it in browser.
 
 ### Setup
-1. Install Java on your computer
-Download and install the Java Software Development Kit (JDK) [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+1. **Install Java on your computer**
+Download and install the Java Software Development Kit (JDK) [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Please note you have downloaded the version based on your OS type. For example download Windows x64	JDK file if you are using 64-bit version of Windows.
+
+2. **Install Eclipse IDE**
+Download latest version of "Eclipse IDE for Java Developers" [here](http://www.eclipse.org/downloads/). Be sure to choose correctly between Windows 32 Bit and 64 Bit versions.
+Double-click on "eclipse-inst-win64" exe downloaded file to Install the Eclipse. A new window will open. Click Eclipse IDE for Java Developers. Then select the path where you want to install and install. After successful completion of the installation procedure, click on Launch to open the Eclipse IDE. Select your workspace where you want to store the code before launching the Eclipse IDE
+
+3. **Import Github project**
+Click on File>Import. Select Git> Projects from Git. Then click on Next. Click on Clone URI and Next. Enter the URI details 
