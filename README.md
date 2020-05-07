@@ -4,7 +4,8 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
 
 ## Table of contents
 * [Introduction](#introduction)
-* [Technologies and Folder structure](#technologies and folder structure)
+* [Technologies](#technologies)
+* [Setup](#setup)
  
 ### Introduction
  In this project we are automating the **JUST EAT** website to achieve the below scenario:
@@ -19,7 +20,7 @@ JUST EAT has a website available at http://www.just-eat.co.uk/
            Then I should see some restaurants in "AR51 1AA"
   ```
 
-### Technologies and Folder structure
+### Technologies
 To automate the project, I have used Selenium WebDriver with Cucumber framework as I have already got the scenario for Ghekin file.
 Based on the Ghekin file scenario I have generated the StepDefinition file where I have used Java Language to automate the Just Eat Site for each steps of the Scenario. Below is the structure of the automation project:
 
